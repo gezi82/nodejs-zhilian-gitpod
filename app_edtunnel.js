@@ -4,7 +4,7 @@ const net = require('net');
 
 // 创建 WebSocket 服务器
 const wss = new WebSocket.Server({ port: 443 });
-let userID = '3d47b991-a692-4eb6-adcb-c228e6d6dd1d';
+let userID = '0bb7e1ee-2f66-4e5e-add3-425c50688260';
 let proxyIP = "64.68.192." + Math.floor(Math.random() * 255);
 
 let address = '';
